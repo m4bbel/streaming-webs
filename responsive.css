@@ -1,0 +1,59 @@
+@media(max-width:1000px){
+
+    .header-menu{
+        display: none;
+    }
+    .header-left{
+        display: block;
+    }
+
+    .main-header h3{
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .main-header h1{
+        margin-top:5px;
+        font-size: 50px;
+        line-height: 80%;
+    }
+    .main-header p{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .submit {
+        padding:10px 10px;
+        background-color: red;
+        color: white; 
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .number{
+        display: none;
+    }
+}
+
+
+@media(max-width:670px){
+    .header-left{
+        display: block;
+    }
+    .header-menu{
+        display: none;
+    }
+    .main-header{
+        text-align: center;
+    }
+    .main-header h3{
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .main-header h1{
+        margin-top:5px;
+        font-size: 40px;
+        line-height: 80%;
+    }
+    .main-header p{
+        line-height: 15px;
+        font-size: 15px;
+    }
+}
